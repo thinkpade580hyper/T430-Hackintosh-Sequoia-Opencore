@@ -3,9 +3,9 @@
 [![OC](https://img.shields.io/badge/OpenCore-1.0.3-informational.svg)](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.3)
 [![15](https://img.shields.io/badge/macOS-15-orange.svg)]()
 [![download](https://img.shields.io/badge/Download-latest-success.svg)](https://github.com/jozews321/T430-Hackintosh-Opencore/releases/latest)
-<img src="/resources/T430-new.png" alt="Lenovo Thinkpad T430" width="350">
-<img src="/resources/OpenCore.png" alt="OpenCore" width="300">
-<img src="/resources/OCLP.png" alt="OpenCore Legacy Patcher" width="200">
+<img align="left" src="/resources/T430-new.png" alt="Lenovo Thinkpad T430" width="300">
+<img align="right" src="/resources/OpenCore.png" alt="OpenCore" width="200">
+<img align="right" src="/resources/OCLP.png" alt="OpenCore Legacy Patcher" width="200">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 ## SUMMARY 
 This guide will provide a EFI folder configured to install macOS 15 on the Thinkpad T430 using OpenCore Bootloader with every device working with some exceptions depending on your particular T430 model (see below)
