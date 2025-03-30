@@ -175,7 +175,7 @@ Now it's time to generate the Serial, MLB, UUID and ROM to the config.plist (you
 </details> 
 
 <details>
-<summary><strong>macOS 12 to 14 - HD 4000 system patch</strong></summary>
+<summary><strong>macOS 12 to 15 - HD 4000 system patch</strong></summary>
 <br /> 
 Apple dropped the HD 4000 iGPU with macOS 12 to 15. If you dont install this you won't have any kind of graphics acceleration and your macOS 12-14 experience will be completely miserable
 
@@ -228,9 +228,11 @@ If you managed to boot without any issues you can disable the verbose boot to ge
 - Find boot-args and delete  `-v`
 	
 - Reboot
+
+</details>
 	
 </details>
-<summary><strong>Get Wi-Fi working</strong></summary>
+<summary><strong>Getting Wi-Fi working</strong></summary>
 <br />
 If you want network working, you can use Ethernet Port. But, if you want Wi-Fi
 
