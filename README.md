@@ -1,4 +1,4 @@
-# Thinkpad T430 - Hackintosh - OpenCore
+# ThinkPad T430 - Hackintosh - OpenCore
 [![T430](https://img.shields.io/badge/ThinkPad-T430-blueviolet.svg)](https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_T430.pdf)
 [![OC](https://img.shields.io/badge/OpenCore-1.0.3-informational.svg)](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.3)
 [![15](https://img.shields.io/badge/macOS-15-orange.svg)]()
@@ -16,7 +16,7 @@ If you are new to this i suggest you to go to [OpenCore Install Guide](https://d
 There will be references to the linked guide throught this proccess for those that are new to this
 
 ## REQUIREMENTS
-- Lenovo Thinkpad T430 (T430s is similar enough to work with this config, but i can't verify)
+- Lenovo ThinkPad T430 (T430s is similar enough to work with this config, but i can't verify)
 - Intel Core i3 3110M or better (Celeron and Pentium CPUs are not supported)
 - Integrated Intel HD4000 graphics (NVIDIA discrete GPUs are not supported)
 - At least 4GB RAM 
