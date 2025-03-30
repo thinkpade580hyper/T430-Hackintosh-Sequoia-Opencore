@@ -43,6 +43,7 @@ Do a pull request to add more Hardware configs to this list
 | Processor           | Intel Core i5-3320M                           |
 | Memory              | 8GB DDR3 1600MHz in Dual-Channel              |
 | SSD                 | Colorful SL300 128GB                          |
+| HDD                 | TOSHIBA MQ01ABD100 1TB                        |
 | Graphics            | Intel HD Graphics 4000                        |
 | Display             | 14" 1366x768                                  |
 | Audio               | Realtek ALC269VC                              |
