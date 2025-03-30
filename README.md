@@ -229,11 +229,11 @@ If you managed to boot without any issues you can disable the verbose boot to ge
 	
 - Reboot
 
-</details>
-	
-</details>
-<summary><strong>Getting Wi-Fi working</strong></summary>
-<br />
+</details> 
+
+<details>
+<summary><strong>Get Wi-Fi working</strong></summary>
+<br /> 
 If you want network working, you can use Ethernet Port. But, if you want Wi-Fi
 
 - Download this: https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.5.0
