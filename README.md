@@ -1,19 +1,13 @@
 # Thinkpad T430 - Hackintosh - OpenCore
 [![T430](https://img.shields.io/badge/ThinkPad-T430-blueviolet.svg)](https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_T430.pdf)
-[![OC](https://img.shields.io/badge/OpenCore-0.9.2-informational.svg)](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.2)
-[![10.13](https://img.shields.io/badge/macOS-10.13-yellowgreen.svg)]()
-[![10.14](https://img.shields.io/badge/macOS-10.14-blue.svg)]()
-[![10.15](https://img.shields.io/badge/macOS-10.15-9cf.svg)]()
-[![11](https://img.shields.io/badge/macOS-11-red.svg)]()
-[![12](https://img.shields.io/badge/macOS-12-blueviolet.svg)]()
-[![13](https://img.shields.io/badge/macOS-13-yellow.svg)]()
-[![14](https://img.shields.io/badge/macOS-14-orange.svg)]()
+[![OC](https://img.shields.io/badge/OpenCore-1.0.3-informational.svg)](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.3)
+[![15]([https://img.shields.io/badge/macOS-15-blur.svg])]()
 [![download](https://img.shields.io/badge/Download-latest-success.svg)](https://github.com/jozews321/T430-Hackintosh-Opencore/releases/latest)
 <img align="left" src="/resources/T430-new.png" alt="Lenovo Thinkpad T430" width="300">
 <img align="right" src="/resources/homepage.png" alt="Opencore" width="200">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 ## SUMMARY 
-This guide will provide a EFI folder configured to install macOS 10.13 to 14 on the Thinkpad T430 using OpenCore Bootloader with every device working with some exceptions depending on your particular T430 model (see below)
+This guide will provide a EFI folder configured to install macOS 15 on the Thinkpad T430 using OpenCore Bootloader with every device working with some exceptions depending on your particular T430 model (see below)
 
 |:warning: This guide assumes prior knowledge on how to do basic Hackintosh stuff |
 |:--------------------------------------------------------------------|
@@ -26,10 +20,10 @@ There will be references to the linked guide throught this proccess for those th
 - Integrated Intel HD4000 graphics (NVIDIA discrete GPUs are not supported)
 - At least 4GB RAM 
 - Stock Intel Centrino WiFI card (optional)
-- Internal Broadcom BCM20702 Bluetooth 4.2 card (optional)
+- Internal Broadcom BCM20702 Bluetooth 4.2 card (optional but need patched bios)
 - Integrated Fingerprint reader and WWAN card are not supported
 - Dual Booting is discouraged in this guide as there is many boot scenarios to cover properly here
-- SSD (HDDs suck)
+- SSD or MSATA (HDDs suck)
 - USB drive (at least 16gb for full installer or 2gb for internet recovery)
 
 ## ABOUT
@@ -44,16 +38,16 @@ Do a pull request to add more Hardware configs to this list
 | Component           | Details                                       |
 | ------------------: | :-------------------------------------------- |
 | Model               | Lenovo ThinkPad T430                          |
-| BIOS Version        | 2.77, unlocked with 1vyRain                   |
-| Processor           | Intel Core i7 3610QM                          |
-| Memory              | 16GB DDR3 1600MHz in Dual-Channel             |
-| SSD                 | Intel 520 Series SSD 180GB                    |
+| BIOS Version        | 2.82, unlocked with 1vyRain                   |
+| Processor           | Intel Core i5-3320M                           |
+| Memory              | 8GB DDR3 1600MHz in Dual-Channel              |
+| SSD                 | Colorful SL300 128GB                          |
 | Graphics            | Intel HD Graphics 4000                        |
-| Display             | 15.6" 1600x900                                |
+| Display             | 14" 1366x768                                  |
 | Audio               | Realtek ALC269VC                              |
 | Ethernet            | Intel 82579LM Gigabit Network                 |
-| WIFI                | Intel Dual Band Wireless-AC 7260              |
-| Bluetooth           | Integrated Broadcom BCM20702 Bluetooth 4.2    |
+| WIFI                | Intel Intel Centrino Wireless-N-2200          |
+| Bluetooth           | The Wifi card doesn't have bluetooth          |
   
 </details>
 
@@ -69,7 +63,7 @@ Download the latest release of the EFI
 <summary><strong>BIOS Settings</strong></summary>
 
 ### BIOS Settings
-Latest BIOS Version: `2.77` stock or ivyrain
+Latest BIOS Version: `2.82` stock or ivyrain
 
 **CONFIG TAB**
 
