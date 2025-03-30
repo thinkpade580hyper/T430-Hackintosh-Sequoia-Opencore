@@ -3,7 +3,7 @@
 [![OC](https://img.shields.io/badge/OpenCore-1.0.3-informational.svg)](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.3)
 [![15](https://img.shields.io/badge/macOS-15-orange.svg)]()
 [![download](https://img.shields.io/badge/Download-latest-success.svg)](https://github.com/jozews321/T430-Hackintosh-Opencore/releases/latest)
-<img align="left" src="/resources/T430-new.png" alt="Lenovo Thinkpad T430" width="300">
+<img align="left" src="/resources/T430-new.png" alt="Lenovo Thinkpad T430" width="350">
 <img align="middle" src="/resources/OpenCore.png" alt="OpenCore" width="300">
 <img align="right" src="/resources/OCLP.png" alt="OpenCore Legacy Patcher" width="200">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
