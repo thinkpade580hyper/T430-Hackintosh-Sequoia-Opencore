@@ -176,7 +176,7 @@ Now it's time to generate the Serial, MLB, UUID and ROM to the config.plist (you
 <details>
 <summary><strong>macOS 12 to 14 - HD 4000 system patch</strong></summary>
 <br /> 
-Apple dropped the HD 4000 iGPU with macOS 12. If you dont install this you won't have any kind of graphics acceleration and your macOS 12-14 experience will be completely miserable
+Apple dropped the HD 4000 iGPU with macOS 12 to 15. If you dont install this you won't have any kind of graphics acceleration and your macOS 12-14 experience will be completely miserable
 
 - Download [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 
@@ -228,7 +228,23 @@ If you managed to boot without any issues you can disable the verbose boot to ge
 	
 - Reboot
 	
-</details> 
+</details>
+<summary><strong>Get Wi-Fi working</strong></summary>
+<br />
+If you want network working, you can use Ethernet Port. But, if you want Wi-Fi
+
+- Download this: https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.5.0
+
+- You need an Intel wifi to use that
+
+- Install normally
+
+- (Optional if you want Heliport automatically launch at boot up) Click the Apple icon  and pick System Settings.
+
+- Go to General > Login Items.
+
+- Click the plus button (+) > Applications > select the app > Open > Choose Heliport app and done.
+
 
 ## Credits
 
