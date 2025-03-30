@@ -246,6 +246,7 @@ If you want network working, you can use Ethernet Port. But, if you want Wi-Fi
 
 - Click the plus button (+) > Applications > select the app > Open > Choose Heliport app and done.
 
+</details>
 
 ## Credits
 
