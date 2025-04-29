@@ -182,7 +182,7 @@ Apple dropped the HD 4000 iGPU with macOS 12 to 15. If you dont install this you
 
 - Download [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 
-- Run OLCP
+- Run OCLP
 	
 - Choose Post Install Root Patch and follow instructions
 	
