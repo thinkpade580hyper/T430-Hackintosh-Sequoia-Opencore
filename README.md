@@ -48,8 +48,8 @@ Do a pull request to add more Hardware configs to this list
 | Display             | 14" 1366x768                                  |
 | Audio               | Realtek ALC269VC                              |
 | Ethernet            | Intel 82579LM Gigabit Network                 |
-| WIFI                | Intel Intel Centrino Wireless-N-2200          |
-| Bluetooth           | The Wifi card doesn't have bluetooth          |
+| WIFI                | Intel Dual Band Wireless-AC 7260              |
+| Bluetooth           | Integrated Broadcom BCM20702 Bluetooth 4.2    |
   
 </details>
 
