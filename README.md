@@ -72,7 +72,7 @@ Latest BIOS Version: `2.82` stock or ivyrain
 * USB UEFI BIOS Support: `Enabled`
 * USB 3.0 Mode: `Enabled`
 * Display > Boot Display Device: `ThinkPad LCD`
-* SATA > SATA Controller Mode: `XHCI`
+* SATA > SATA Controller Mode: `AHCI`
 * CPU > Core Multi-Processing: `Enabled`
 * CPU > Intel (R) Hyper-Threading: `Enabled`
 
@@ -84,7 +84,6 @@ Latest BIOS Version: `2.82` stock or ivyrain
 * Memory Protection: `Enabled`
 * Virtualization > Intel (R) Virtualization Technology: `Enabled` 
 * I/O Port Access (`Disable` the following:):
-	* Wireless WAN
 	* ExpressCard Slot
 	* eSATA Port
 	* Fingerprint Reader
